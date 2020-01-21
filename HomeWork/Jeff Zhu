@@ -1,0 +1,13 @@
+python = []
+run = []
+pythonRun = []
+for item in range(1,31):
+    if item % 3 == 0 and item % 7 == 0:
+        pythonRun.append(item)
+    elif item % 3 == 0:
+        python.append(item)
+    elif item % 7 == 0:
+        run.append(item)
+print("pythonRun: " + str(pythonRun))
+print("python: " + str(python))
+print("run " + str(run))
